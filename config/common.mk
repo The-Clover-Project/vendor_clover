@@ -198,3 +198,6 @@ $(call inherit-product, vendor/google/overlays/ThemeIcons/config.mk)
 include vendor/clover/config/version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# Fonts
+include vendor/clover/config/fonts.mk
