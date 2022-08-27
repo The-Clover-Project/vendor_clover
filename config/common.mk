@@ -311,6 +311,10 @@ CUSTOM_LOCALES += \
     cy_GB \
     fur_IT
 
+# Google Photos Pixel Exclusive XML
+PRODUCT_COPY_FILES += \
+    vendor/clover/prebuilt/common/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
+
 # Google apps and services
 $(call inherit-product, vendor/gms/products/gms.mk)
 
