@@ -265,6 +265,11 @@ include vendor/clover/config/gms.mk
 PRODUCT_PACKAGES += \
     SettingsOverlayGMS \
     SettingsProviderOverlayGMS
+TARGET_CALL_RECORDING_SUPPORTED ?= true
+ifneq ($(TARGET_CALL_RECORDING_SUPPORTED),false)
+PRODUCT_COPY_FILES += \
+    vendor/clover/config/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml
+endif
 else
 include vendor/clover/config/vanilla.mk
 PRODUCT_PACKAGES += \
