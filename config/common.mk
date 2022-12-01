@@ -69,6 +69,14 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/clover/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 
+# Call Recording
+TARGET_CALL_RECORDING_SUPPORTED ?= true
+
+ifneq ($(TARGET_CALL_RECORDING_SUPPORTED),false)
+PRODUCT_COPY_FILES += \
+    vendor/clover/config/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml
+endif
+
 # Clover-specific init rc file
 PRODUCT_COPY_FILES += \
     vendor/clover/prebuilt/common/etc/init/init.clover-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.clover-system_ext.rc
