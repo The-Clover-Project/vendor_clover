@@ -55,6 +55,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 endif
 endif
 
+# BtHelper
+PRODUCT_PACKAGES += \
+    BtHelper
+    
 # Clover-specific init rc file
 PRODUCT_COPY_FILES += \
     vendor/clover/prebuilt/common/etc/init/init.clover-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.clover-system_ext.rc
