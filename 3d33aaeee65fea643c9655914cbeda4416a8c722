@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91784db4_a90fe4ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2024-10-21T23:27:10Z",
+      "side": 1,
+      "message": "Resolves build issues with ack 6.1 and 6.6",
+      "revId": "3d33aaeee65fea643c9655914cbeda4416a8c722",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
