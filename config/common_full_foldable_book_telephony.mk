@@ -9,3 +9,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 $(call inherit-product, vendor/lineage/config/tablet.mk)
 
 $(call inherit-product, vendor/lineage/config/telephony.mk)
+
+PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/foldable_book
