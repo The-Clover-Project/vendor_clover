@@ -34,6 +34,24 @@
       "parentUuid": "bc5d4a35_55394bf7",
       "revId": "32ae76c5a84efb50646de40499c048568c79bf50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aaefe906_9d8890bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33707
+      },
+      "writtenOn": "2024-10-22T08:41:25Z",
+      "side": 1,
+      "message": "Also, Gerrit isn\u0027t a place to report this",
+      "parentUuid": "17d4b11f_7e4062c4",
+      "revId": "32ae76c5a84efb50646de40499c048568c79bf50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
