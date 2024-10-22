@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9165903_1ce4b0ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-10-22T17:57:47Z",
+      "side": 1,
+      "message": "This will break every single device that doesn\u0027t overlay this. Pixels already overlay it to their required value",
+      "revId": "3bed0c20d7c89382cb05ea29fe011c1e3c4da4e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
