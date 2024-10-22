@@ -34,6 +34,23 @@
       "parentUuid": "d9165903_1ce4b0ab",
       "revId": "3bed0c20d7c89382cb05ea29fe011c1e3c4da4e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7dc59dd_00499488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-10-22T18:16:14Z",
+      "side": 1,
+      "message": "Well this is from 2018 for devices with non rounded corners. I guess we\u0027ll find out if something breaks",
+      "revId": "3bed0c20d7c89382cb05ea29fe011c1e3c4da4e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
