@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc5d4a35_55394bf7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34258
+      },
+      "writtenOn": "2024-10-22T05:51:07Z",
+      "side": 1,
+      "message": "@all, For Redmi 9 (lancelot), only Grameenphone can be used, no other SIM card can be used. Any other SIM cards shows Card 2 by default and manually can\u0027t be set the network. Please see the screenshot below. Will anyone be able to fix it? Or what could be causing this? Please someone help.\n\n![Image](https://github.com/user-attachments/assets/9eea2ab9-64b2-423e-be6f-b9cfeef8bffc)",
+      "revId": "32ae76c5a84efb50646de40499c048568c79bf50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
