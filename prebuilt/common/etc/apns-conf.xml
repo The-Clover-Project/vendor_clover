@@ -1214,15 +1214,38 @@
   <apn carrier="Fido Tethering" mcc="302" mnc="370" apn="ltedata.apn" type="dun" mvno_match_data="DD" mvno_type="gid" protocol="IPV4V6" />
   <apn carrier="MTS" mcc="302" mnc="370" apn="sp.mts" type="default,mms,supl" mmsc="http://mmsc2.mts.net/" mmsproxy="wapgw1.mts.net" mmsport="9201" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_match_data="2C" mvno_type="gid" />
   <apn carrier="MTS Tethering S" mcc="302" mnc="370" apn="internet.mts" type="dun" protocol="IPV4V6" roaming_protocol="IP" mvno_type="gid" mvno_match_data="2C" />
-  <apn carrier="Freedom Mobile Internet" mcc="302" mnc="490" apn="internet.freedommobile.ca" type="default,dun,supl" protocol="IPV4V6" />
-  <apn carrier="Freedom Mobile MMS" mcc="302" mnc="490" apn="mms.freedommobile.ca" mmsc="http://mms.windmobile.ca" mmsproxy="74.115.197.70" mmsport="8080" type="mms" />
-  <apn carrier="Freedom Mobile VoLTE" mcc="302" mnc="490" apn="volte.mobilefrdm.ca" type="ims" protocol="IPV4V6" user_visible="false" />
-  <apn carrier="Freedom Mobile E911" mcc="302" mnc="490" apn="e911.mobilefrdm.ca" type="emergency" protocol="IPV4V6" user_visible="false" />
-  <apn carrier="Videotron Mobile" mcc="302" mnc="500" apn="media.ng" mmsc="http://media.videotron.com" mmsproxy="10.208.89.17" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Videotron Mobile LTE IMS" mcc="302" mnc="500" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV6" user_visible="false" />
-  <apn carrier="Videotron Mobile Emergency" mcc="302" mnc="500" apn="sos" type="emergency" protocol="IPV6" roaming_protocol="IPV6" user_visible="false" />
-  <apn carrier="Videotron Mobile" mcc="302" mnc="510" apn="media.ng" mmsc="http://media.videotron.com" mmsproxy="10.208.89.17" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Videotron Mobile" mcc="302" mnc="520" apn="media.ng" mmsc="http://media.videotron.com" mmsproxy="10.208.89.17" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="Freedom Mobile Internet" carrier_id="1895" mcc="302" mnc="490" apn="internet.freedommobile.ca" type="default,supl,dun" protocol="IPV4V6" roaming_protocol="IPV4V6" user_editable="false"/>
+  <apn carrier="Freedom Mobile Internet" mcc="302" mnc="490" apn="wsp.shaw.ca" type="default,supl,dun" protocol="IPV4V6" mvno_type="gid" mvno_match_data="53" user_editable="false"/>
+  <apn carrier="Freedom Mobile Internet" mcc="302" mnc="490" apn="wsp.shaw.ca" type="default,supl,dun" protocol="IPV4V6" mvno_type="imsi" mvno_match_data="302490400" user_editable="false"/>
+  <apn carrier="Freedom Mobile Internet" mcc="302" mnc="490" apn="wsp.shaw.ca" type="default,supl,dun" protocol="IPV4V6" mvno_type="imsi" mvno_match_data="302490500" user_editable="false"/>
+  <apn carrier="Freedom Mobile MMS" carrier_id="1895" mcc="302" mnc="490" apn="mms.freedommobile.ca" mmsc="http://mms.freedommobile.ca" mmsproxy="74.115.197.70" mmsport="8080" type="mms" user_editable="false"/>
+  <apn carrier="Freedom Mobile MMS" mcc="302" mnc="490" apn="mms.shaw.ca" mmsc="http://mms.shaw.ca" mmsproxy="74.115.197.70" mmsport="8080" type="mms" modem_cognitive="true" mvno_type="gid" mvno_match_data="53" user_editable="false"/>
+  <apn carrier="Freedom Mobile MMS" mcc="302" mnc="490" apn="mms.shaw.ca" mmsc="http://mms.shaw.ca" mmsproxy="74.115.197.70" mmsport="8080" type="mms" modem_cognitive="true" mvno_type="imsi" mvno_match_data="302490400" user_editable="false"/>
+  <apn carrier="Freedom Mobile MMS" mcc="302" mnc="490" apn="mms.shaw.ca" mmsc="http://mms.shaw.ca" mmsproxy="74.115.197.70" mmsport="8080" type="mms" modem_cognitive="true" mvno_type="imsi" mvno_match_data="302490500" user_editable="false"/>
+  <apn carrier="Freedom Mobile IMS" carrier_id="1895" mcc="302" mnc="490" apn="IMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="14|18|20" user_visible="false"/>
+  <apn carrier="Freedom Mobile IMS" mcc="302" mnc="490" apn="IMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="14|18|20" mvno_type="gid" mvno_match_data="53" user_visible="false"/>
+  <apn carrier="Freedom Mobile IMS" mcc="302" mnc="490" apn="IMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="14|18|20" mvno_type="imsi" mvno_match_data="302490400" user_visible="false"/>
+  <apn carrier="Freedom Mobile IMS" mcc="302" mnc="490" apn="IMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="14|18|20" mvno_type="imsi" mvno_match_data="302490500" user_visible="false"/>
+  <apn carrier="Freedom Mobile Emergency" carrier_id="1895" mcc="302" mnc="490" apn="e911.mobilefrdm.ca" type="emergency" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false"/>
+  <apn carrier="Freedom Mobile Emergency" mcc="302" mnc="490" apn="e911.mobilefrdm.ca" type="emergency" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53" user_visible="false"/>
+  <apn carrier="Freedom Mobile Emergency" mcc="302" mnc="490" apn="e911.mobilefrdm.ca" type="emergency" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="imsi" mvno_match_data="302490400" user_visible="false"/>
+  <apn carrier="Freedom Mobile Emergency" mcc="302" mnc="490" apn="e911.mobilefrdm.ca" type="emergency" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="imsi" mvno_match_data="302490500" user_visible="false"/>
+  <apn carrier="Freedom Mobile XCAP" carrier_id="1895" mcc="302" mnc="490" apn="xcap.freedommobile.ca" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="14|18" user_visible="false"/>
+  <apn carrier="Freedom Mobile XCAP" mcc="302" mnc="490" apn="xcap.freedommobile.ca" type="xcap" mvno_type="gid" mvno_match_data="53" user_visible="false"/>
+  <apn carrier="Freedom Mobile XCAP" mcc="302" mnc="490" apn="xcap.freedommobile.ca" type="xcap" mvno_type="imsi" mvno_match_data="302490400" user_visible="false"/>
+  <apn carrier="Freedom Mobile XCAP" mcc="302" mnc="490" apn="xcap.freedommobile.ca" type="xcap" mvno_type="imsi" mvno_match_data="302490500" user_visible="false"/>
+  <apn carrier="Videotron Mobile" carrier_id="2008" mcc="302" mnc="500" apn="media.ng" mmsc="http://media.videotron.com" mmsproxy="10.208.89.17" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="Videotron Mobile IMS" carrier_id="2008" mcc="302" mnc="500" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV6" user_visible="false" />
+  <apn carrier="Videotron Mobile Emergency" carrier_id="2008" mcc="302" mnc="500" apn="sos" type="emergency" protocol="IPV6" roaming_protocol="IPV6" user_visible="false" />
+  <apn carrier="Freedom Mobile" mcc="302" mnc="500" apn="media.ng" mmsc="http://media.videotron.com" type="default,mms,supl" bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20" mvno_type="gid" mvno_match_data="53" user_editable="false"/>
+  <apn carrier="Freedom Mobile IMS" mcc="302" mnc="500" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV6" bearer_bitmask="14|18|20" mvno_type="gid" mvno_match_data="53" user_visible="false" user_editable="false"/>
+  <apn carrier="Freedom Mobile XCAP" mcc="302" mnc="500" apn="xcap" type="xcap" bearer_bitmask="1|2|3|9|10|11|13|14|15|20" mvno_type="gid" mvno_match_data="53" user_visible="false"/>
+  <apn carrier="Freedom Mobile MMS and XCAP over iWLAN" mcc="302" mnc="500" apn="xcap" mmsc="http://media.videotron.com" type="mms,xcap" bearer_bitmask="18" mvno_type="gid" mvno_match_data="53" user_visible="false"/>
+  <apn carrier="Fizz Mobile" carrier_id="2417" mcc="302" mnc="500" apn="mobile.bm" mmsc="http://mms.mobile.bm" mmsproxy="mmsproxy.mobile.bm" mmsport="80" type="default,mms,supl" mvno_type="gid" mvno_match_data="55" user_editable="false"/>
+  <apn carrier="Fizz Mobile IMS" carrier_id="2417" mcc="302" mnc="500" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV6" bearer_bitmask="14|18|20" mvno_type="gid" mvno_match_data="55" user_visible="false" user_editable="false"/>
+  <apn carrier="Fizz Mobile XCAP" carrier_id="2417" mcc="302" mnc="500" apn="xcap" type="xcap" mvno_type="gid" mvno_match_data="55" user_visible="false" user_editable="false"/>
+  <apn carrier="Videotron Mobile" carrier_id="2008" mcc="302" mnc="510" apn="media.ng" mmsc="http://media.videotron.com" mmsproxy="10.208.89.17" mmsport="8080" type="default,mms,supl"/>
+  <apn carrier="Videotron Mobile" carrier_id="2008" mcc="302" mnc="520" apn="media.ng" mmsc="http://media.videotron.com" mmsproxy="10.208.89.17" mmsport="8080" type="default,mms,supl"/>
   <apn carrier="Bell Mobility" mcc="302" mnc="610" apn="pda.bell.ca" type="default,mms,supl,dun,hipri,ia" mmsc="http://mms.bell.ca/mms/wapenc" protocol="IPV4V6" roaming_protocol="IP" />
   <apn carrier="Bell Mobility IMS" mcc="302" mnc="610" apn="ims" type="ims" protocol="IPV4V6" />
   <apn carrier="Virgin Mobile" mcc="302" mnc="610" apn="pda.bell.ca" type="default,mms,supl" mmsc="http://mms.bell.ca/mms/wapenc" authtype="2" mvno_type="gid" mvno_match_data="62" />
