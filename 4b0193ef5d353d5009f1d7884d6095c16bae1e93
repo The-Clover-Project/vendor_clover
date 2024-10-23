@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "711aa0ca_0d82b34d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-23T04:40:03Z",
+      "side": 1,
+      "message": "I tested replacing the entire apns-conf for today (going in and out of various places with and without freedom and/or nationwide coverage, changing networks, changing preferred network type, making calls, etc) with one generated from CarrierSettings.\n\nI tested this specific revision for a little bit at my desk (changing networks, changing preferred network type, making calls, etc). This revision works well enough (and is actually functional unlike the original one), but since I also needed to update the Videotron APNs for stuff to work correctly, I suspect the other Canadian carrier APNs may also need to be updated for nationwide roaming to work correctly (I\u0027ll do this in another change -- this change should be self-contained as it is right now).\n\nI replaced the APNs with the following steps:\n\n- adb push apns-conf.xml /data/misc/apns/apns-conf.xml\n- adb shell \"sed -i -E \u0027s/(\u003cstring name\u003d.ro_build_id.\u003e)[^\u003c]+(\u003c.string\u003e)/\\1dummy\\2/g\u0027 /data/user_de/0/com.android.providers.telephony/shared_prefs/build-id.xml\"\n- adb reboot\n- reset network settings\n- adb reboot",
+      "revId": "4b0193ef5d353d5009f1d7884d6095c16bae1e93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
