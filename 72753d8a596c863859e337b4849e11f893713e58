@@ -16,6 +16,40 @@
       "message": "Not tested",
       "revId": "72753d8a596c863859e337b4849e11f893713e58",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef5c44d9_0ff8f9db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-10-23T17:57:26Z",
+      "side": 1,
+      "message": "I can test Telus via Public Mobile but others will need to test the other carriers",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c970bd62_9e175f31",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1204,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-10-23T17:57:26Z",
+      "side": 1,
+      "message": "please fix whitespace",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
