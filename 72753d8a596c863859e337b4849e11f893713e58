@@ -50,6 +50,23 @@
       "message": "please fix whitespace",
       "revId": "72753d8a596c863859e337b4849e11f893713e58",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1572910c_8edf3408",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1209,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-10-23T18:02:48Z",
+      "side": 1,
+      "message": "mmsproxy needs to be fixed. Please see my commit here\n\nhttps://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/381093",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
