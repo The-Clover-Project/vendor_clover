@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e1625a4_1d40dda6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-24T05:32:17Z",
+      "side": 1,
+      "message": "Testing this revision fixes Freedom on non-nationwide (i.e., ehplmns 302490/302500/302520), but nationwide (i.e., roaming) IMS is still broken. When also replacing the other Canadian APNs with the ones generated from the pixel carriersettings, nationwide IMS works fine. I am still figuring out what the minimum amount of changes to fix everything is.",
+      "revId": "1069f7cca1e3d681714af43e5acaa7674dad5eae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
