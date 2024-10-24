@@ -16,6 +16,24 @@
       "message": "This is disabled by default on purpose https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/384302",
       "revId": "8675c823ef0a843195a7312fb8e84ac12497fe7b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a2da33e_499c559d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2024-10-24T21:38:39Z",
+      "side": 1,
+      "message": "I know, I\u0027m posting this to get opinions on changing it",
+      "parentUuid": "324776ee_13b08d68",
+      "revId": "8675c823ef0a843195a7312fb8e84ac12497fe7b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
