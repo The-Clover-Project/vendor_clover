@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e7030f48_3ac2ce6f",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1225,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-24T05:05:09Z",
+      "side": 0,
+      "message": "I\u0027m not sure if you\u0027re planning to include the required changes in a future changeset of this patch, but this revision entirely removes all the Quebecor (Videotron/Freedom/Fizz) ones rather than updating it.\n\nSince you added me as a reviewer, I suppose you\u0027ve noticed https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/406466 or at least my comments on the gitlab issues. I\u0027m still trying to figure out the minimum set of changes to make everything work (I know it works if I replace all APNs with the Pixel CarrierSettings ones, though).\n\nThe Videotron/Freedom ones in AOSP are outdated and partly non-functional, especially for roaming and VoLTE.",
+      "range": {
+        "startLine": 1217,
+        "startChar": 0,
+        "endLine": 1225,
+        "endChar": 168
+      },
+      "revId": "08343528558d0bdf4f9e4075363738bea783c1f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
