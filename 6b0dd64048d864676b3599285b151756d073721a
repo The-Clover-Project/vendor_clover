@@ -16,6 +16,24 @@
       "message": "RFC",
       "revId": "6b0dd64048d864676b3599285b151756d073721a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b341f0b5_7bb6e7a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-24T07:06:51Z",
+      "side": 1,
+      "message": "Also note that if all the basic stuff mostly works, but there are issues with some features, and you have a non-pixel device or a device which doesn\u0027t include an updated overlay for carrierconfig vendor.xml, it may be due to incorrect carrierconfig, as the one shipped in lineage is severely outdated for some carriers (e.g., Freedom Mobile -- see https://gitlab.com/LineageOS/issues/android/-/issues/7798#note_2170491614).",
+      "parentUuid": "55f13721_15f655ed",
+      "revId": "6b0dd64048d864676b3599285b151756d073721a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
