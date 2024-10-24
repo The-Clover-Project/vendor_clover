@@ -52,6 +52,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8042e46e_8947b648",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-24T05:54:46Z",
+      "side": 1,
+      "message": "I don\u0027t think we can trust AOSP for Canadian carrier APNs. This list is missing or has misconfigured APNs for Rogers, Public Mobile (Telus), and more.\n\nFor a concrete example, see this (https://issuetracker.google.com/issues/352345932) AOSP bug from a Telus employee, along with an associated patch (https://android-review.googlesource.com/c/device/sample/+/3191510). The Pixel shiba_AP2A.240905.003 carriersettings contains the correct APN (`\u003capn carrier\u003d\"IMS\" carrier_id\u003d\"2089\" mcc\u003d\"302\" mnc\u003d\"220\" apn\u003d\"ims\" type\u003d\"ims\" protocol\u003d\"IPV6\" roaming_protocol\u003d\"IPV6\" bearer_bitmask\u003d\"3|9|10|11|14|15|18|20\" mvno_type\u003d\"gid\" mvno_match_data\u003d\"4D4F\" user_visible\u003d\"false\"/\u003e`), but AOSP doesn\u0027t and Google hasn\u0027t even responded to that patch for months.\n\nI believe the Pixel carriersettings is a better starting point for APNs, and that AOSP or other ones should only be used if confirmed working through testing or through documentation from a reliable source.",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c970bd62_9e175f31",
