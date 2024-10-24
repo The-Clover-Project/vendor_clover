@@ -105,6 +105,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4928b760_b18316d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-24T23:34:47Z",
+      "side": 1,
+      "message": "I wrote a script to generate a report comparing the latest apns from aosp, lineage, and phones well-supported by canadian carriers (google pixel 8, motorola edge 2024, samsung galaxy s24).\n\nhttps://github.com/pgaskin/apnstuff/blob/master/experiments/cmp/apndiff.go\n\nhttps://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/master/experiments/cmp/mcc302-all.split.html",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c970bd62_9e175f31",
