@@ -71,6 +71,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a34dae34_257a212c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-24T05:55:47Z",
+      "side": 1,
+      "message": "oops, accidentally submitted the comment as resolved the first time",
+      "parentUuid": "8042e46e_8947b648",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c970bd62_9e175f31",
         "filename": "prebuilt/common/etc/apns-conf.xml",
         "patchSetId": 1
