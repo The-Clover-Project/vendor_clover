@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e46f38f7_35dd73a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-10-25T10:34:11Z",
+      "side": 1,
+      "message": "Temp workarounds needed for lineage-21.0:\n\n* Revert `4ec8f4fe1dd1f102b3a9c0795cf358d8d8f5e8b4` in device/google/cuttlefish\n* Remove `sv_2d_session_tests` and `sv_3d_session_tests` on platform_testing/build/tasks/tests/native_test_list.mk",
+      "revId": "a7868703175409f50570909ae1a9a8f71f2ef698",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
