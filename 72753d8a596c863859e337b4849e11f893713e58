@@ -122,6 +122,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f021bc3_a52b3c83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-25T03:34:34Z",
+      "side": 1,
+      "message": "Also a diff including the changes from this CL: https://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/master/experiments/cmp/tmp/tmp.html .",
+      "parentUuid": "4928b760_b18316d7",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c970bd62_9e175f31",
@@ -152,6 +170,24 @@
       "writtenOn": "2024-10-23T18:02:48Z",
       "side": 1,
       "message": "mmsproxy needs to be fixed. Please see my commit here\n\nhttps://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/381093",
+      "revId": "72753d8a596c863859e337b4849e11f893713e58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8619bf2c_341bc219",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1209,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-25T03:34:34Z",
+      "side": 1,
+      "message": "Freedom Mobile is not affected by the Telus change. See https://www.freedommobile.ca/en-CA/support/troubleshoot-your-data-connection and the APNs shipped with pixel/motorola/samsung devices. Also, 74.115.197.70 is a freedom-owned IP.",
+      "parentUuid": "1572910c_8edf3408",
       "revId": "72753d8a596c863859e337b4849e11f893713e58",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
