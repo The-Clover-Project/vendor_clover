@@ -16,6 +16,23 @@
       "message": "Tested with Freedom Mobile (freedom/nationwide, roaming, 5g, volte, mms, etc) and fixes all issues with it.\n\nShould not cause issues with any carriers; I\u0027ve done a lot of research and put effort into ensuring they\u0027re correct. I don\u0027t have the ability to test them though.\n\nSee [github.com/pgaskin/apnstuff](https://github.com/pgaskin/apnstuff) for some random stuff related to my research on this.\n\nFor a more readable form for reviewing, see:\n- [xml: grouped and commented by carrier](https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/mcc302.xml)\n- [diff: aosp vs lineage vs google vs mine](https://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/experiments/curated/diff.html)\n- [diff: google vs mine](https://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/experiments/curated/diff1.html)\n- [diff: lineage vs mine](https://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/experiments/curated/diff2.html)",
       "revId": "ab752bf599dad939f80f5e9e14023845e37b0980",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0418fb18_3c022fe6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-26T03:19:50Z",
+      "side": 1,
+      "message": "To test this on an existing lineage install:\n\n  1. adb root\n  2. adb push apns-conf.xml /data/misc/apns/apns-conf.xml\n  3. adb shell \"sed -i -E \u0027s/(\u003cstring name\u003d.ro_build_id.\u003e)[^\u003c]+(\u003c.string\u003e)/\\1dummy\\2/g\u0027 /data/user_de/0/com.android.providers.telephony/shared_prefs/build-id.xml\"\n  4. adb reboot\n  5. reset apn settings via the three-dot menu in the apn list\n  6. reset network settings via the button in the internet settings toolbar\n  7. adb reboot\n\nThis will persist even through OTA updates since it takes precedence\nover the shipped /product/etc/apns-conf.xml.\n\nTo undo it, do the same thing, but delete /data/misc/apns/apns-conf.xml\nin step 2.",
+      "revId": "ab752bf599dad939f80f5e9e14023845e37b0980",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
