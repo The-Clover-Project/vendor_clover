@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d066c9c_b72f27d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-26T03:15:47Z",
+      "side": 1,
+      "message": "Tested with Freedom Mobile (freedom/nationwide, roaming, 5g, volte, mms, etc) and fixes all issues with it.\n\nShould not cause issues with any carriers; I\u0027ve done a lot of research and put effort into ensuring they\u0027re correct. I don\u0027t have the ability to test them though.\n\nSee [github.com/pgaskin/apnstuff](https://github.com/pgaskin/apnstuff) for some random stuff related to my research on this.\n\nFor a more readable form for reviewing, see:\n- [xml: grouped and commented by carrier](https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/mcc302.xml)\n- [diff: aosp vs lineage vs google vs mine](https://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/experiments/curated/diff.html)\n- [diff: google vs mine](https://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/experiments/curated/diff1.html)\n- [diff: lineage vs mine](https://htmlpreview.github.io/?https://github.com/pgaskin/apnstuff/blob/177c6b9d469165f3d9f9193e48d30e1351476196/experiments/curated/diff2.html)",
+      "revId": "ab752bf599dad939f80f5e9e14023845e37b0980",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
