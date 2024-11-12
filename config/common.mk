@@ -208,6 +208,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/clover/overlay/common
 
 PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NavigationBarNoHintOverlay \
