@@ -233,6 +233,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/clover/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
     PermissionControllerOverlay
