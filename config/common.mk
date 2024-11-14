@@ -4,6 +4,9 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 # Bootanimation
 $(call inherit-product, vendor/clover/config/bootanimation.mk)
 
+# Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
+
 PRODUCT_BRAND ?= TheCloverProject
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
