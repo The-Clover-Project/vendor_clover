@@ -13,6 +13,7 @@ CLOVER_DISPLAY_VERSION := v$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)
 # The Clover Project version properties
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.clover.version=$(CLOVER_VERSION) \
+    ro.clover.device=$(CLOVER_BUILD) \
     ro.clover.display.version=$(CLOVER_DISPLAY_VERSION) \
     ro.clover.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.clover.releasetype=$(CLOVER_BUILDTYPE) \
