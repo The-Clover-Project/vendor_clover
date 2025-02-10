@@ -16,8 +16,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.clover.device=$(CLOVER_BUILD) \
     ro.clover.display.version=$(CLOVER_DISPLAY_VERSION) \
     ro.clover.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.clover.releasetype=$(CLOVER_BUILDTYPE) \
-    ro.modversion=$(CLOVER_VERSION)
+    ro.clover.releasetype=$(CLOVER_BUILDTYPE)
 
 # Signing
 -include vendor/clover-priv/keys/keys.mk
