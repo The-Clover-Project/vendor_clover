@@ -210,6 +210,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    GameSpace \
     Launcher3QuickStep \
     ThemePicker
 
