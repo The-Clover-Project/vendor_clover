@@ -7,6 +7,9 @@ $(call inherit-product, vendor/clover/config/bootanimation.mk)
 # Certification
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 
+# Theme overlays
+$(call inherit-product-if-exists, vendor/clover/themes/config.mk)
+
 # Allow vendor prebuilt repos to exclude themselves from bp scanning
 -include $(sort $(wildcard vendor/*/*/exclude-bp.mk))
 
@@ -299,6 +302,3 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 include vendor/clover/config/version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
-
-# Fonts
-include vendor/clover/config/fonts.mk
