@@ -23,6 +23,8 @@ SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 $(CLOVER_TARGET_PACKAGE): $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(CLOVER_TARGET_PACKAGE)
 	$(hide) $(SHA256) $(CLOVER_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(CLOVER_TARGET_PACKAGE).sha256sum
+	$(shell chmod +x vendor/clover/build/tools/cloverOTAjson.sh)
+	$(hide) ./vendor/clover/build/tools/cloverOTAjson.sh $(TARGET_DEVICE) $(PRODUCT_OUT) $(CLOVER_VERSION).zip
 	@echo "Package Complete: $(CLOVER_TARGET_PACKAGE)" >&2
 
 .PHONY: clover
