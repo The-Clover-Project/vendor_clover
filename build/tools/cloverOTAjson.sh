@@ -57,7 +57,11 @@ main() {
     size=$(stat -c "%s" "${zip_path}")
     local version
     version=$(echo "${zip_filename}" | cut -d'-' -f2 | sed 's/v//')
-    local url="https://sourceforge.net/projects/the-clover-project/files/${device_codename}/${zip_filename}/download"
+    local major_version
+    major_version=$(echo "${version}" | cut -d'.' -f1)
+    local minor_version
+    minor_version=$(echo "${version}" | cut -d'.' -f2)
+    local url="https://get.thecloverproject.com/folder/${device_codename}/${major_version}.x/${major_version}.${minor_version}/${zip_filename}"
 
     # JSON File Generation
     printf -- "--> Writing JSON data to %s\n" "${output_json_path}"
