@@ -225,7 +225,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     GameSpace \
     Launcher3QuickStep \
-    ThemePicker
+    ThemePicker \
+    ThemesStub
 
 # Permissions
 PRODUCT_COPY_FILES += \
