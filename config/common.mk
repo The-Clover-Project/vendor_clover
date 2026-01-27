@@ -302,8 +302,7 @@ PRODUCT_PACKAGES += \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
-    PermissionControllerOverlay \
-    SettingsOverlay
+    PermissionControllerOverlay
 
 # Translations
 CUSTOM_LOCALES += \
@@ -314,6 +313,15 @@ CUSTOM_LOCALES += \
 
 # Google apps and services
 $(call inherit-product, vendor/gms/products/gms.mk)
+
+TARGET_INCLUDE_PIXEL_LAUNCHER ?= false
+ifeq ($(TARGET_INCLUDE_PIXEL_LAUNCHER),true)
+PRODUCT_PACKAGES += \
+    SettingsOverlayPixelThemePicker
+else
+PRODUCT_PACKAGES += \
+    SettingsOverlay
+endif
 
 include vendor/clover/config/version.mk
 
