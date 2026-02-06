@@ -233,14 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/clover/config/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml \
     vendor/clover/config/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
 
-# Lineage Health
-PRODUCT_COPY_FILES += \
-    vendor/clover/config/permissions/org.lineageos.health.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.health.xml
-
-# Lineage-specific file
-PRODUCT_COPY_FILES += \
-    vendor/clover/config/permissions/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
-
 # Lineage interfaces
 PRODUCT_PACKAGES += \
     framework_compatibility_matrix.lineage.xml
