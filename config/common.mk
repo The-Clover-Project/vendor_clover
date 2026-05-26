@@ -268,4 +268,10 @@ CUSTOM_LOCALES += \
 
 include vendor/clover/config/version.mk
 
+ifeq ($(WITH_GMS),true)
+include vendor/clover/config/pixel.mk
+else
+include vendor/clover/config/vanilla.mk
+endif
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
