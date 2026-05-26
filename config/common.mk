@@ -260,4 +260,16 @@ CUSTOM_LOCALES += \
 
 include vendor/clover/config/version.mk
 
+ifeq ($(WITH_GMS),true)
+include vendor/clover/config/gms.mk
+PRODUCT_PACKAGES += \
+    SettingsOverlayGMS \
+    SettingsProviderOverlayGMS
+else
+include vendor/clover/config/vanilla.mk
+PRODUCT_PACKAGES += \
+    SettingsOverlayVanilla \
+    SettingsProviderOverlayVanilla
+endif
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
