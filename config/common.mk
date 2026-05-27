@@ -264,7 +264,8 @@ ifeq ($(WITH_GMS),true)
 include vendor/clover/config/gms.mk
 PRODUCT_PACKAGES += \
     SettingsOverlayGMS \
-    SettingsProviderOverlayGMS
+    SettingsProviderOverlayGMS \
+    UpdaterGMS
 TARGET_CALL_RECORDING_SUPPORTED ?= true
 ifneq ($(TARGET_CALL_RECORDING_SUPPORTED),false)
 PRODUCT_COPY_FILES += \

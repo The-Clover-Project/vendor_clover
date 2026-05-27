@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The Clover Project
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clover.updater.gms">
+
+    <application android:hasCode="false"/>
+
+    <overlay
+        android:isStatic="true"
+        android:priority="250"
+        android:targetPackage="com.clover.updater" />
+</manifest>
