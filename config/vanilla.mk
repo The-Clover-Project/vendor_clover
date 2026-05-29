@@ -18,3 +18,4 @@ PRODUCT_PACKAGES += \
     Twelve \
     WallpaperPicker2
 
+include vendor/prebuilts/prebuilts.mk
