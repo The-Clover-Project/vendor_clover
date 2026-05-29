@@ -24,3 +24,6 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     LatinIMEOverlayVanilla \
     SettingsOverlayVanilla
+
+# Prebuilts
+include vendor/prebuilts/prebuilts.mk
