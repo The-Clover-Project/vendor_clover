@@ -218,6 +218,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/clover/config/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
 
+# OverlayFS
+PRODUCT_PACKAGES_DEBUG += \
+    disable-overlays
+
 # rsync
 PRODUCT_PACKAGES += \
     rsync
