@@ -27,4 +27,13 @@
     <!-- The type of the light sensor to be used by the display framework for things like
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
     <string name="config_displayLightSensorType" translatable="false">android.sensor.light</string>
+
+    <string name="config_clockFontFamily" translatable="false">google-sans-flex-clock</string>
+    <string name="config_bodyFontFamily" translatable="false">google-sans-flex</string>
+    <string name="config_bodyFontFamilyMedium" translatable="false">google-sans-flex</string>
+    <string name="config_lightFontFamily" translatable="false">google-sans-flex</string>
+    <string name="config_regularFontFamily" translatable="false">google-sans-flex</string>
+    <string name="config_headlineFontFamily">google-sans-flex</string>
+    <string name="config_headlineFontFamilyMedium">google-sans-flex</string>
+    <string name="config_headlineFontFeatureSettings">ss03</string>
 </resources>
