@@ -1,18 +1,11 @@
 prebuilt_etc_xml {
-    name: "sensitive_pn.xml",
+    name: "clover-component-overrides.xml",
     product_specific: true,
-    src: "etc/sensitive_pn.xml",
-    schema: ":spn-schema",
-}
-
-prebuilt_etc_xml {
-    name: "lineage-component-overrides.xml",
-    product_specific: true,
-    src: "etc/lineage-component-overrides.xml",
+    src: "etc/clover-component-overrides.xml",
     sub_dir: "sysconfig",
 }
 
 prebuilt_addon_d {
-    name: "50-lineage.sh",
-    src: "bin/50-lineage.sh",
+    name: "50-clover.sh",
+    src: "bin/50-clover.sh",
 }
