@@ -122,6 +122,16 @@ endif
 PRODUCT_PACKAGES += \
     framework_compatibility_matrix.lineage.xml
 
+# Lockscreen Clocks
+PRODUCT_PACKAGES += \
+    SystemUIClocks-BigNum \
+    SystemUIClocks-Calligraphy \
+    SystemUIClocks-Growth \
+    SystemUIClocks-Inflate \
+    SystemUIClocks-Metro \
+    SystemUIClocks-NumOverlap \
+    SystemUIClocks-Weather
+
 ifeq ($(CLOVER_BUILDTYPE), OFFICIAL)
 # Clover packages
 PRODUCT_PACKAGES += \
