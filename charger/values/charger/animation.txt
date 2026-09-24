@@ -8,6 +8,8 @@ percent_display: c c 255 255 255 255 charger/main_font
 
 fail: charger/battery_fail
 
+overheat: charger/battery_overheat
+
 # frame: disp_time min_level max_level
 frame: 300 0 100 # 0
 frame: 0 0 100
