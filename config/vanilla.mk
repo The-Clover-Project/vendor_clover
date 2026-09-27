@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
     DeskClock \
     Etar \
     ExactCalculator \
+    Gallery2 \
     Glimpse \
     Jelly \
 	LatinIME \
