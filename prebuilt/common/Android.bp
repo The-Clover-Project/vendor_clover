@@ -8,4 +8,8 @@ prebuilt_etc_xml {
 prebuilt_addon_d {
     name: "50-clover.sh",
     src: "bin/50-clover.sh",
+    enabled: select(soong_config_variable("cloverVarsPlugin", "with_gms"), {
+            false: true,
+            default: false,
+        }),
 }

@@ -26,3 +26,10 @@ $(foreach v,$(EXPORT_TO_SOONG),$(eval $(call add_soong_config_var,cloverVarsPlug
 ifneq ($(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS),)
     $(call soong_config_set,libui,additional_gralloc_10_usage_bits,$(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS))
 endif
+
+# GMS
+ifeq ($(WITH_GMS),true)
+    $(call soong_config_set_bool,cloverVarsPlugin,with_gms,true)
+else
+    $(call soong_config_set_bool,cloverVarsPlugin,with_gms,false)
+endif

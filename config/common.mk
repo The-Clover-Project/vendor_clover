@@ -38,6 +38,7 @@ PRODUCT_PRODUCT_PROPERTIES += persist.sys.strictmode.disable=true
 endif
 
 # Backup Tool
+ifeq ($(WITH_GMS),false)
 PRODUCT_COPY_FILES += \
     vendor/clover/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/clover/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions
@@ -47,6 +48,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/addon.d/50-clover.sh
+endif
 
 ifneq ($(strip $(AB_OTA_PARTITIONS) $(AB_OTA_POSTINSTALL_CONFIG)),)
 PRODUCT_COPY_FILES += \
