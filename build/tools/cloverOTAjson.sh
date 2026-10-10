@@ -61,7 +61,7 @@ main() {
     local size
     size=$(stat -c "%s" "${zip_path}")
     local version
-    version=$(echo "${zip_filename}" | cut -d'-' -f2 | sed 's/v//')
+    version=$(echo "${zip_filename}" | sed -E 's/^CloverProject-v?([^-]+(-HOTFIX[0-9]*)?)-.*/\1/')
     local major_version
     major_version=$(echo "${version}" | cut -d'.' -f1)
     local minor_version
