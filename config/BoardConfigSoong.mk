@@ -26,3 +26,7 @@ $(foreach v,$(EXPORT_TO_SOONG),$(eval $(call add_soong_config_var,cloverVarsPlug
 ifneq ($(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS),)
     $(call soong_config_set,libui,additional_gralloc_10_usage_bits,$(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS))
 endif
+
+ifneq ($(TARGET_GAUSSIAN_BLUR_HIGH_QUALITY),)
+    $(call soong_config_set,cloverVarsPlugin,gaussian_blur_high_quality,$(TARGET_GAUSSIAN_BLUR_HIGH_QUALITY))
+endif
