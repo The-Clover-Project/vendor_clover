@@ -2,6 +2,9 @@
 on init
     export TERMINFO /system_ext/etc/terminfo
 
+on property:persist.sys.clover.boot_hash=*
+    setprop ro.boot.vbmeta.digest ${persist.sys.clover.boot_hash}
+
 # bugreport is triggered by holding down volume down, volume up and power
 service clover-bugreport /system/bin/dumpstate -d -p -z
     socket dumpstate stream 0660 shell log
