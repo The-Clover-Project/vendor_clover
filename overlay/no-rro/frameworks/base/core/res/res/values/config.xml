@@ -30,11 +30,11 @@
 
     <string name="config_clockFontFamily" translatable="false">google-sans-flex-clock</string>
     <string name="config_bodyFontFamily" translatable="false">google-sans-flex</string>
-    <string name="config_bodyFontFamilyMedium" translatable="false">google-sans-flex</string>
+    <string name="config_bodyFontFamilyMedium" translatable="false">google-sans-flex-medium</string>
     <string name="config_lightFontFamily" translatable="false">google-sans-flex</string>
     <string name="config_regularFontFamily" translatable="false">google-sans-flex</string>
     <string name="config_headlineFontFamily">google-sans-flex</string>
-    <string name="config_headlineFontFamilyMedium">google-sans-flex</string>
+    <string name="config_headlineFontFamilyMedium">google-sans-flex-medium</string>
     <string name="config_headlineFontFeatureSettings">ss03</string>
 
     <!-- Circle to search -->
